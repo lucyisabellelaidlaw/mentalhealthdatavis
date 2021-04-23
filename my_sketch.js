@@ -30,7 +30,7 @@ function draw() {
 
   fill(color(55, 193, 221));
 
-
+  
 
   textSize(15);
   text('0-4', width/11-width/11/2, height-150);
@@ -87,30 +87,187 @@ function draw() {
 
   if (mouseX<width/13) {
     i = 0;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
+    text(data_85_onwards[i], 10*width/11+width/11/2, 100);
   } else if(mouseX<2*width/13) {
     i = 1;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<3*width/13) {
     i = 2;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<4*width/13) {
     i = 3;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<5*width/13) {
     i = 4;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<6*width/13) {
     i = 5;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<7*width/13) {
     i = 6;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<8*width/13) {
     i = 7;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<9*width/13) {
     i = 8;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<10*width/13) {
     i = 9;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<11*width/13) {
     i = 10;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<12*width/13) {
     i = 11;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   } else if(mouseX<13*width/13) {
     i = 12;
+    textAlign(CENTER);
+    fill(color(55, 193, 221, 90));
+    text(data_0_4[i], 0+width/11/2, 100);
+    text(data_5_11[i], 1*width/11+width/11/2, 100);
+    text(data_12_17[i], 2*width/11+width/11/2, 100);
+    text(data_18_24[i], 3*width/11+width/11/2, 100);
+    text(data_25_34[i], 4*width/11+width/11/2, 100);
+    text(data_35_44[i], 5*width/11+width/11/2, 100);
+    text(data_45_54[i], 6*width/11+width/11/2, 100);
+    text(data_55_64[i], 7*width/11+width/11/2, 100);
+    text(data_65_74[i], 8*width/11+width/11/2, 100);
+    text(data_75_84[i], 9*width/11+width/11/2, 100);
   }
 
 
